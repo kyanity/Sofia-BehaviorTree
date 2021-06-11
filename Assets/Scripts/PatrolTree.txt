@@ -1,0 +1,7 @@
+tree("Patrol")
+	sequence
+		while
+			not detected
+			parallel
+				watch
+				Wait 6.0

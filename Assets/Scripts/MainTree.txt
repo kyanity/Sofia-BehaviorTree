@@ -1,0 +1,10 @@
+tree("Root")
+	fallback
+		tree("Patrol")
+		tree("Hunt")
+
+tree("Hunt")
+	sequence
+		while
+			detected
+			ChasePlayer

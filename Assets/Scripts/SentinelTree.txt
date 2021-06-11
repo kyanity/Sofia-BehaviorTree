@@ -1,0 +1,5 @@
+tree("Patrol")
+	sequence
+		while
+			not detected
+			Fail
